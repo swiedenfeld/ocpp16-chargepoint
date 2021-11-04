@@ -67,13 +67,31 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.micronaut.reactor</groupId>
+      <artifactId>micronaut-reactor</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.reactor</groupId>
+      <artifactId>micronaut-reactor-http-client</artifactId>
+    </dependency>
+    <dependency>
       <groupId>io.micronaut</groupId>
       <artifactId>micronaut-http-server-netty</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.micronaut.jaxrs</groupId>
+      <artifactId>micronaut-jaxrs-server</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>io.micronaut</groupId>
       <artifactId>micronaut-runtime</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.kotlin</groupId>
+      <artifactId>micronaut-kotlin-extension-functions</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
